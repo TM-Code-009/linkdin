@@ -97,7 +97,7 @@ const Section3 = () => {
            <div className='text-center flex flex-wrap justify-center items-center gap-3 mt-5 sticky top-10 ;'>
               {
                 nav.map((el:any) => (
-                    <p className='text-[12px] text-slate-300 hover:text-blue-500 hover:underline cursor-pointer'>{el.name}</p>
+                    <p key={el.id} className='text-[12px] text-slate-300 hover:text-blue-500 hover:underline cursor-pointer'>{el.name}</p>
                 ))
               }
            </div>

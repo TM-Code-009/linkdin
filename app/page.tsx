@@ -6,9 +6,8 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import Home from './(screen)/Home'
 
-const page = () => {
-  const user = useSelector((state:any) => state.user)
-  const dispatch = useDispatch()
+const Page = () => {
+  const user:any = useSelector((state:any) => state.user)
  
   if(user === null){
     return redirect("/signin")
@@ -21,4 +20,4 @@ const page = () => {
   }
 }
 
-export default page
+export default Page

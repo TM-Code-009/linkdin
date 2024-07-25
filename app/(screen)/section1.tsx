@@ -6,7 +6,7 @@ import { useSelector } from "react-redux"
 
 
 const Section1 = () => {
-   const user = useSelector((state:any) => state.user)
+   const user:any = useSelector((state:any) => state.user)
     return(
        <div>
 
