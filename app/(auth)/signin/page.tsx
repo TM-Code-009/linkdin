@@ -23,8 +23,8 @@ const page = () => {
             const email = formData.get("email")
             const password = formData.get("password")
            
-            const newurl= "http://localhost:3000/api/signin"
-            await fetch(newurl,
+            const newurl= "https://linkdin.vercel.app:3000"
+            await fetch(`${newurl}/api/signin`,
                 {method:"POST",
                    headers:{
                     "Content-Type": "application/json"

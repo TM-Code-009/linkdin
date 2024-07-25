@@ -1,7 +1,6 @@
 import { dbconfig } from "@/utils/dbconfig"
 import usermodel from "@/utils/model/usermodel"
 import { NextRequest, NextResponse } from "next/server"
-import bcryptjs from "bcryptjs"
 import postmodel from "@/utils/model/postmodel"
 import { Types } from "mongoose"
 
