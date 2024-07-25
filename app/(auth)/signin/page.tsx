@@ -67,7 +67,7 @@ const Page = () => {
 
             <Button className='w-full mt-5 h-[45px] flex justify-center items-center'>Signin</Button>
 
-            <div className='text-center text-[12px] mt-3 border-b'>Don't have an account please <Link href={"/register"} className='italic font-semibold'>Register here</Link></div>
+            <div className='text-center text-[12px] mt-3 border-b'>Dont have an account please <Link href={"/register"} className='italic font-semibold'>Register here</Link></div>
 
             <div className='mt-5 flex flex-col px-2'>
                 <p>Social usage</p>
