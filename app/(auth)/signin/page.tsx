@@ -10,7 +10,7 @@ import React, { useState } from 'react'
 import { FaGithub, FaGoogle, FaSquareFacebook } from 'react-icons/fa6'
 import { useDispatch } from 'react-redux'
 
-const page = () => {
+const Page = () => {
     const { toast } = useToast()
     const [errer,seterror] = useState<string>("")
     const dispatch= useDispatch()  
@@ -85,4 +85,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
